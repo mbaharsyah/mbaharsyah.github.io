@@ -16,12 +16,14 @@ I had wanted to setup my own website for so long. The main reason was simply to 
 - ...
 
 I had been looking for some alternatives when I found [github pages](https://pages.github.com/). Github pages can host [static pages](https://en.wikipedia.org/wiki/Static_web_page). And for me that's enough as I would not need a web application. While reading its description, I noticed one very interesting feature: blog with [Jekyll](http://jekyllrb.com)
+
 ![2015-08-27-gh-pages-jekyll.png]({{site.baseurl}}/images/posts/2015-08-27-gh-pages-jekyll.png)
 
 
 I thought, what was this Jekyll thing, but it had me at "Markdown". I had been writing notes using [markdown](http://daringfireball.net/projects/markdown/) for sometimes, and it had been helpful to keep focus on content rather than styles. The more I read about Jekyll, the more interesting it was. A lot of customizable templates available, easy to setup, what more could I ask for?
 
 However, the next feature was as interesting, [custom domain](https://en.wikipedia.org/wiki/Domain_name)! I could use my own domain for github pages for free!
+
 ![2015-08-27-gh-pages-domain.png]({{site.baseurl}}/images/posts/2015-08-27-gh-pages-domain.png)
 
 
