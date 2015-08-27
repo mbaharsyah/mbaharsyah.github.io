@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       [PRAM BAHARSYAH]
+email:       mbaharsyah@gmail.com
+author:      Pram Baharsyah
+description: "Notes About Anything"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://mbaharsyah.xyz"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -12,22 +12,22 @@ google_analytics:
 google_verification:
 
 # Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
-show_social_icons:  false
+animated:           true
+show_related_posts: true
+show_post_footers:  true
+show_social_icons:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: mbaharsyah
 
 # Social icons
-github_username:
+github_username: mbaharsyah
 bitbucket_username:
-stackoverflow_id:
-twitter_username:
+stackoverflow_id: kimikanen
+twitter_username: kimikanen
 google_plus_id:
-linkedin_username:
+linkedin_username: mbaharsyah
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -35,7 +35,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
