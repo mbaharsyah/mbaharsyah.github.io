@@ -1,9 +1,4 @@
 ---
-published: false
----
-
-
----
 layout:     post
 title:      New Website
 date:       2015-08-27
