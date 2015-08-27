@@ -7,8 +7,10 @@ layout:     post
 title:      New Website
 date:       2015-08-27
 summary:    I set up a website, this is how I did it.
-categories: general web
+categories: general
 ---
+![blog.jpg]({{site.baseurl}}/_drafts/blog.jpg)
+
 
 I had wanted to setup my own website for so long. The main reason was simply to make myself visible on the net. Other benefits include:
 * Platform for blogging about this and that
