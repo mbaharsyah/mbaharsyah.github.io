@@ -8,7 +8,7 @@ url:         "http://mbaharsyah.xyz"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_analytics:
+google_analytics: UA-66887477-1
 google_verification:
 
 # Optional features
