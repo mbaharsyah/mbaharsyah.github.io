@@ -118,3 +118,6 @@ What it means is that www.<yourdomain> points to <username>.github.io. You can o
 
 ![2015-08-30-dns.png]({{site.baseurl}}/images/posts/2015-08-30-dns.png)
 
+***
+
+Now you have setup everything, wait a few minutes before the DNS setting is applied. You can try to browse to http://<subdomain>.<domain> and you will see your github pages Jekyll website.
