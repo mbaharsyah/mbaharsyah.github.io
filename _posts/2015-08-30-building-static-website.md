@@ -5,7 +5,7 @@ date:       2015-08-30
 summary:    How I use Jekyll and Github Pages to build a website and publish it in my own domain.
 categories: web
 ---
-![website](http://www.wedholmab.se/wp-content/uploads/2013/04/webbutveckling-1.jpg)
+![website](http://www.swarmnyc.com/wp-content/uploads/2014/11/HTML-1014x487.jpg)
 
 As described in [Previous Post](http://www.mbaharsyah.xyz/general/2015/08/27/new-website/), I built this website using [Jekyll](http://jekyllrb.com/), hosted on [Github Pages](https://pages.github.com/) and use domain name registered from [namecheap](https://www.namecheap.com/). This is how it was done.
 
