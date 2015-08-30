@@ -91,4 +91,30 @@ If you use the other methods to create your website, you may want to see github 
 
 When everything is working fine with your website running on http://<username>.github.io, you can then link it to your own [domain name](https://en.wikipedia.org/wiki/Domain_name). I use namecheap as my [Domain Name Registrar](https://en.wikipedia.org/wiki/Domain_name_registrar), but this guide shall be generic enough for all others.
 
+### Add CNAME file in repository
+
+Using the same way as ```index.html``` file above, create a file named ```CNAME``` (all in caps) which contains single line which is your domain name, e.g. 
+<pre>
+www.example.com
+</pre>
+
+### Modify DNS Settings
+
+From your domain control panel, find DNS settings or hosts record. For namecheap it's under My Account --> My Domains --> Manage Domains --> All Host Records.
+Create 2 [A records](https://en.wikipedia.org/wiki/List_of_DNS_record_types#A) pointing to github addresses:
+<pre>
+@ 192.30.252.154 
+@ 192.30.252.153
+</pre>
+
+In general, it means that any request to your domain name, must be forwarded to either of those DNS (they're Github's, btw). And then it's Github's task to point it to the correct website.
+
+You need also to add a [CNAME](https://en.wikipedia.org/wiki/CNAME_record) entry
+<pre>
+www <username>.github.io.
+</pre>
+
+What it means is that www.<yourdomain> points to <username>.github.io. You can of course change www to any subdomain you would like to have. And please note there's a full stop at the end of github.io domain. See below for my complete setup in namecheap
+
+![2015-08-30-dns.png]({{site.baseurl}}/images/posts/2015-08-30-dns.png)
 
